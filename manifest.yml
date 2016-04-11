@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: Terminal Map View AR Web
+  host: terminal-map-view-ar-web
+  disk_quota: 1024M
+  services:
+  - MongoDB by Compose-xm
